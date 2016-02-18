@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Account Information</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/login.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+  <h2>Account Information</h2>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Personal Information</a></li>
+    <li ><a data-toggle="tab" href="#menu1">Security</a></li>
+    <li><a data-toggle="tab" href="#menu2">Privacy</a></li>
+  </ul>
+
+<div class="tab-content">
+    <div id="home" class="tab-pane fade in active"><form class="form-signin">
+      <h3>Personal Information</h3>
+      First Name:
+      <input type="text" class="form-control"><br>
+      Last Name:
+      <input type="text" class="form-control"><br>
+      Email Adress:
+      <input type="email" class="form-control"><br>
+      Phone Number:
+      <input type="text" class="form-control"><br>
+      <input type="submit"  class="btn btn-lg btn-primary btn-block" value="Submit The Changes">
+    </div></form>
+    <div id="menu1" class="tab-pane fade"><form class="form-signin">
+      <h3>Security</h3>
+      Current Password:
+      <input type="password" class="form-control"><br>
+      New Password:
+      <input type="password" class="form-control"><br>
+      Repeat Your New Password:
+      <input type="password" class="form-control"><br>
+      <input type="submit"  class="btn btn-lg btn-primary btn-block" value="Submit The Changes">
+    </div></form>
+    <div id="menu2" class="tab-pane fade"><form class="form-signin">
+      <h3>Privacy</h3>
+      Who Can See My personal Information?
+      <div style="margin-bottom:20px">
+      <select class="form-control">
+        <option>Only Managers</option>
+        <option>Friends</option>
+        <option>Everyone</option>
+      </select>
+    </div>
+      <input type="submit"  class="btn btn-lg btn-primary btn-block" value="Submit The Changes">
+    </div></form>
+  </div>
+</div>
+<form class="form-signin">
+<input type="submit"  class="btn btn-lg btn-primary btn-block" value="Log Out">
+</form>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
