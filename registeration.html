@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registeration</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/login.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <form class="form-signin">
+  <h1 class="form-signin-heading">Please register your information!</h1>
+  Username:
+  <input type="text" class="form-control" placeholder="username"><br>
+  Password:
+  <input type="password" class="form-control" placeholder="password"><br>
+  Email:
+  <input type="email" class="form-control" placeholder="email"><br>
+  <button type="button" class="btn btn-link" data-toggle="modal" data-target="#terms_conditions">
+  Read Terms and conditions ...
+  </button>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Accept terms and conditions
+    </label>
+  </div>
+  <input type="submit" class="btn btn-lg btn-primary btn-block" value="Register"/>
+  </form>
+
+  <!-- Modal -->
+<div class="modal fade" id="terms_conditions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Terms and conditions</h4>
+      </div>
+      <div class="modal-body">
+        Text Text Text...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
